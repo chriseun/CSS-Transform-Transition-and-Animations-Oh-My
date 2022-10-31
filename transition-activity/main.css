@@ -9,19 +9,89 @@ body  {
   width: 80%;
   margin: auto;
   overflow: hidden;
+  position: relative;
+  height: 90vh;
+
 }
 
-img {
-  width: 80%;
+
+.caption:hover{
+
 }
+
+
+/* .caption > div {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    top: 102vh;
+    text-align: left;
+        animation: slider 2s forwards;
+
+} */
+
+
+.title-div{
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+      text-align: left;
+        animation: slider 2s forwards;
+top: 0;
+              width: 70em;
+              left: 10rem;
+
+}
+
+.title-div:hover{
+top: 0;
+}
+
+.caption-div {
+    /* position: absolute; */
+    z-index: 0;
+    color: #fff;
+    /* top: 102vh; */
+/*
+      height: 50vh; */
+      height:0;
+      width: 80em;
+      margin: auto;
+
+}
+
+.title-div:hover{
+        animation: slider 2s forwards;
+        height: 100vh;
+}
+
+
+img {
+  width: 100%;
+}
+
+/* img:hover {
+  animation: slider;
+} */
 
 button {
   padding: 1em;
   margin: .2em;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1.5em;
+  border: none;
+  background-color: ghostwhite;
+      transition: 2s;
 }
 
-button:hover {
-  background-color: cornflowerblue;
+/* @keyframes slider{
+0%{
+
+  top: 102vh;
 }
+
+100%{
+  top: 0;
+}
+
+} */
